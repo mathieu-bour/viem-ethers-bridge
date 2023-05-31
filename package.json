@@ -1,0 +1,52 @@
+{
+  "name": "viem-ethers-bridge",
+  "version": "0.0.1",
+  "description": "Connect Viem with legacy ethers.js v5 libraries",
+  "keywords": [
+    "viem",
+    "ethers",
+    "evm",
+    "ethereum",
+    "smart-contracts"
+  ],
+  "homepage": "https://github.com/mathieu-bour/viem-ethers-bridge",
+  "bugs": "https://github.com/mathieu-bour/viem-ethers-bridge/issues",
+  "license": "MIT",
+  "author": "Mathieu Bour <mathieu@bour.tech>",
+  "type": "module",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ethersproject/abstract-provider": "^5.7.0",
+    "@ethersproject/abstract-signer": "^5.7.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/networks": "^5.7.1",
+    "@ethersproject/properties": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@mathieu-bour/prettier-config": "^1.1.0",
+    "eslint": "^8.41.0",
+    "lefthook": "^1.4.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4",
+    "viem": "^0.3.40"
+  },
+  "peerDependencies": {
+    "@ethersproject/abstract-provider": "^5.7.0",
+    "@ethersproject/abstract-signer": "^5.7.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/networks": "^5.7.1",
+    "@ethersproject/properties": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "viem": "^0.3.40"
+  },
+  "prettier": "@mathieu-bour/prettier-config"
+}
