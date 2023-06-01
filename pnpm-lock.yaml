@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^5.0.4
     version: 5.0.4
   viem:
-    specifier: ^0.3.40
-    version: 0.3.40(typescript@5.0.4)
+    specifier: ^0.3.41
+    version: 0.3.41(typescript@5.0.4)
 
 packages:
 
@@ -1551,8 +1551,8 @@ packages:
       punycode: 2.3.0
     dev: true
 
-  /viem@0.3.40(typescript@5.0.4):
-    resolution: {integrity: sha512-IVOaJVXUXxqRjgDNHx21R69nJ4Q4AAxpkjWRtjtBKNJFPCPzjYwBuzxZX0T0FW581fT/BwrlXxZtdHrQ1wbfdw==}
+  /viem@0.3.41(typescript@5.0.4):
+    resolution: {integrity: sha512-QC9nSyqrhVv4CRVS58CgVS3rilikG8EAVPlkP+R6u8FDx6kLVe0Bz6bYrxzrcmR/lASko6Pz6N7xA7jngGkqvw==}
     dependencies:
       '@adraffy/ens-normalize': 1.9.0
       '@noble/curves': 1.0.0

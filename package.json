@@ -21,8 +21,6 @@
     "dev": "tsc --watch",
     "build": "tsc"
   },
-  "dependencies": {
-  },
   "devDependencies": {
     "@ethersproject/abstract-provider": "^5.7.0",
     "@ethersproject/abstract-signer": "^5.7.0",
@@ -36,7 +34,7 @@
     "lefthook": "^1.4.1",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4",
-    "viem": "^0.3.40"
+    "viem": "^0.3.41"
   },
   "peerDependencies": {
     "@ethersproject/abstract-provider": "^5.7.0",
@@ -46,7 +44,7 @@
     "@ethersproject/networks": "^5.7.1",
     "@ethersproject/properties": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
-    "viem": "^0.3.40"
+    "viem": "^0.3.41"
   },
   "prettier": "@mathieu-bour/prettier-config"
 }
