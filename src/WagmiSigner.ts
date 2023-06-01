@@ -13,7 +13,7 @@ export default class WagmiSigner extends Signer {
   
   constructor(private client: WalletClient) {
     super();
-    this.provider =  new WagmiProvider(client);
+    this.provider = new WagmiProvider(client);
   }
 
   connect(): Signer {

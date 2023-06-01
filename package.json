@@ -1,6 +1,6 @@
 {
   "name": "viem-ethers-bridge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Connect Viem with legacy ethers.js v5 libraries",
   "keywords": [
     "viem",
